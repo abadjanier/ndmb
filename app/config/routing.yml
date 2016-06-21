@@ -1,0 +1,29 @@
+ndmb_frontend:
+    resource: "@NdmbFrontendBundle/Resources/config/routing.yml"
+    prefix:   /{_locale}/
+    requirements:
+        _locale: %_locale%
+
+ndmb_backend:
+    resource: "@NdmbBackendBundle/Resources/config/routing.yml"
+    prefix:   /admin/{_locale}/
+    requirements:
+        _locale: %_locale%
+
+
+ndmb_redirect:
+    path: /
+    defaults: { _controller:NdmbFrontendBundle:Redirect:language }
+
+ndmb_check:
+    path: /{word}
+    defaults: { _controller:NdmbFrontendBundle:Redirect:check }
+
+
+#ndmb_core:
+#    resource: "@NdmbCoreBundle/Resources/config/routing.yml"
+#    prefix:   /
+
+#core_core:
+#    resource: "@CoreCoreBundle/Resources/config/routing.yml"
+#    prefix:   /

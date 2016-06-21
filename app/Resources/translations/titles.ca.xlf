@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="ca" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>configuration</source>
+                <target>Configuración</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>invite</source>
+                <target>Invitar</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>favorite</source>
+                <target>Favoritos</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>home</source>
+                <target>Inicio</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>my.account</source>
+                <target>Cuenta</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>structure</source>
+                <target>Estructura</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>register</source>
+                <target>Registrar</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>my.profile</source>
+                <target>Mi perfil</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>vip.invitations</source>
+                <target>Invitaciones VIP</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>invite.a.friend</source>
+                <target>Invita a un amigo</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>member.to.bm</source>
+                <target>De member a BM</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>my.structure.clients</source>
+                <target>Mi estructura de clientes</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>inc</source>
+                <target>Inc</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>notification</source>
+                <target>Notificación</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>data</source>
+                <target>Datos</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>characteristics</source>
+                <target>Características</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>schedule</source>
+                <target>Horario</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>admin.profile</source>
+                <target>Perfil administrador</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>company.profile</source>
+                <target>Perfil empresa</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>manage.commerces</source>
+                <target>Gestionar comercios</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>modules.services</source>
+                <target>Mis módulos/servicios</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>pin</source>
+                <target>Pin</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>commerce</source>
+                <target>Comercio</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>company</source>
+                <target>Compañía</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>mark.business</source>
+                <target>Señalar negocio</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>profile</source>
+                <target>Perfil</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>member.to.bm.upgrade</source>
+                <target>Business Manager Upgrade</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>support</source>
+                <target>Soporte</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>extract</source>
+                <target>Extracto</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>backend</source>
+                <target>Backend</target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>invited</source>
+                <target>Invitados</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>shopping.list</source>
+                <target>Lista de la compra</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>profile</source>
+                <target>Perfil</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>administrator</source>
+                <target>Administrador</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>my.points.of.sales</source>
+                <target>Mis puntos de venta</target>
+            </trans-unit>
+            <trans-unit id="36">
+                <source>personal.information.point.of.sale</source>
+                <target>Información Personal P. venta</target>
+            </trans-unit>
+            <trans-unit id="37">
+                <source>complete.data.point.of.sale</source>
+                <target>Completa las características de tu punto de venta</target>
+            </trans-unit>
+            <trans-unit id="38">
+                <source>complete.schedule.point.of.sale</source>
+                <target>Completa el horario de tu punto de venta</target>
+            </trans-unit>
+            <trans-unit id="39">
+                <source>my.linked.credit.cards</source>
+                <target>Mis tarjetas de crédito vinculadas</target>
+            </trans-unit>
+            <trans-unit id="40">
+                <source>admin.profile</source>
+                <target>Perfil del Administrador</target>
+            </trans-unit>
+            <trans-unit id="41">
+                <source>commerce.profile</source>
+                <target>Perfil del comercio</target>
+            </trans-unit>
+            <trans-unit id="42">
+                <source>company.profile</source>
+                <target>Perfil de la compañía</target>
+            </trans-unit>
+            <trans-unit id="43">
+                <source>member.profile</source>
+                <target>Perfil del Member</target>
+            </trans-unit>
+            <trans-unit id="44">
+                <source>support.title</source>
+                <target>Atención al cliente</target>
+            </trans-unit>
+            <trans-unit id="45">
+                <source>dashboard</source>
+                <target>Dashboard</target>
+            </trans-unit>
+            <trans-unit id="46">
+                <source>your.members</source>
+                <target>Tus members</target>
+            </trans-unit>
+            <trans-unit id="47">
+                <source>invite.your.members</source>
+                <target>Invita a tus members a convertirse en BM</target>
+            </trans-unit>
+            <trans-unit id="48">
+                <source>my.favorite.shops</source>
+                <target>Mis tiendas favoritas</target>
+            </trans-unit>
+            <trans-unit id="49">
+                <source>resume.of</source>
+                <target>Resumen de</target>
+            </trans-unit>
+            <trans-unit id="50">
+                <source>click.more.information</source>
+                <target>Haz click para ver más información</target>
+            </trans-unit>
+            <trans-unit id="51">
+                <source>sign.in.member.company</source>
+                <target>Entrar como member / Compañía</target>
+            </trans-unit>
+            <trans-unit id="52">
+                <source>my.invoices</source>
+                <target>Mis facturas</target>
+            </trans-unit>
+            <trans-unit id="53">
+                <source>my.transactions</source>
+                <target>Mis operaciones</target>
+            </trans-unit>
+            <trans-unit id="54">
+                <source>mark.characteristics</source>
+                <target>Marca las características de tu punto de venta</target>
+            </trans-unit>
+            <trans-unit id="55">
+                <source>invite.a.company</source>
+                <target>Invitar una compañía</target>
+            </trans-unit>
+            <trans-unit id="56">
+                <source>my.mycomcards</source>
+                <target>Mis 1mycard</target>
+            </trans-unit>
+            <trans-unit id="57">
+                <source>get.module</source>
+                <target>Obtener Módulos</target>
+            </trans-unit>
+            <trans-unit id="58">
+                <source>friends.invitations.statistics</source>
+                <target>Estadísticas de tus invitaciones a amigos</target>
+            </trans-unit>
+            <trans-unit id="59">
+                <source>my.tpv</source>
+                <target>Mi TPV</target>
+            </trans-unit>
+            <trans-unit id="60">
+                <source>my.bank.accounts</source>
+                <target>Mis comptes bancaris</target>
+            </trans-unit>
+            <trans-unit id="61">
+                <source>coms.recharge</source>
+                <target>Recarga de coms</target>
+            </trans-unit>
+            <trans-unit id="62">
+                <source>coms.devolution</source>
+                <target>Devolución de coms</target>
+            </trans-unit>
+            <trans-unit id="63">
+                <source>coms.transfer</source>
+                <target>Transferir coms</target>
+            </trans-unit>
+            <trans-unit id="64">
+                <source>offer.management</source>
+                <target>Gestión de ofertas</target>
+            </trans-unit>
+            <trans-unit id="65">
+                <source>commerce.country.offer</source>
+                <target>Ofertas de País</target>
+            </trans-unit>
+            <trans-unit id="66">
+                <source>add.commerce.step1</source>
+                <target>Step1</target>
+            </trans-unit>
+            <trans-unit id="67">
+                <source>add.commerce.step2</source>
+                <target>Step2</target>
+            </trans-unit>
+            <trans-unit id="68">
+                <source>add.commerce.step3</source>
+                <target>Step3</target>
+            </trans-unit>
+            <trans-unit id="69">
+                <source>invite.a.client</source>
+                <target>Invita a un cliente</target>
+            </trans-unit>
+            <trans-unit id="70">
+                <source>my.members.structure</source>
+                <target>Mi estructura de Members</target>
+            </trans-unit>
+            <trans-unit id="71">
+                <source>created.offers</source>
+                <target>Ofertas Creadas</target>
+            </trans-unit>
+            <trans-unit id="72">
+                <source>available.offers</source>
+                <target>Ofertas disponibles</target>
+            </trans-unit>
+            <trans-unit id="73">
+                <source>steps.step1</source>
+                <target>Paso 1:</target>
+            </trans-unit>
+            <trans-unit id="74">
+                <source>steps.step2</source>
+                <target>Paso 2:</target>
+            </trans-unit>
+            <trans-unit id="75">
+                <source>steps.step3</source>
+                <target>Paso 3:</target>
+            </trans-unit>
+            <trans-unit id="76">
+                <source>invitations.status</source>
+                <target>Estado de las invitaciones</target>
+            </trans-unit>
+            <trans-unit id="77">
+                <source>send.account.verification</source>
+                <target>Enviar verificación de la cuenta</target>
+            </trans-unit>
+            <trans-unit id="78">
+                <source>bank.edit.bank.account</source>
+                <target>Editar cuenta bancaria</target>
+            </trans-unit>
+            <trans-unit id="79">
+                <source>bank.remove.account</source>
+                <target>Eliminar cuenta bancaria</target>
+            </trans-unit>
+            <trans-unit id="80">
+                <source>add.new.bank.account</source>
+                <target>Añadir nueva cuenta bancaria</target>
+            </trans-unit>
+            <trans-unit id="81">
+                <source>withdraw.money.1mycard</source>
+                <target>Retirar dinero de la 1mycard</target>
+            </trans-unit>
+            <trans-unit id="82">
+                <source>information</source>
+                <target>Información:</target>
+            </trans-unit>
+            <trans-unit id="83">
+                <source>card.edition</source>
+                <target>Edición de la tarjeta</target>
+            </trans-unit>
+            <trans-unit id="84">
+                <source>status.statistics.invitations</source>
+                <target>Estadísticas sobre el estado de tus invitaciones</target>
+            </trans-unit>
+            <trans-unit id="85">
+                <source>structure.bm</source>
+                <target>Mi estructura de Business Managers</target>
+            </trans-unit>
+            <trans-unit id="86">
+                <source>my.structure.company</source>
+                <target>Mi estructura de compañias</target>
+            </trans-unit>
+            <trans-unit id="87">
+                <source>my.structure.member</source>
+                <target>Mi estructura de members</target>
+            </trans-unit>
+            <trans-unit id="88">
+                <source>get.service</source>
+                <target>Obtener un servicio</target>
+            </trans-unit>
+            <trans-unit id="89">
+                <source>valorations</source>
+                <target>Valoraciones</target>
+            </trans-unit>
+            <trans-unit id="90">
+                <source>add.new.trans</source>
+                <target>Añadir nuevas traducciones</target>
+            </trans-unit>
+            <trans-unit id="91">
+                <source>commerce.zip.offer</source>
+                <target>Ofertas de Código Postal</target>
+            </trans-unit>
+            <trans-unit id="92">
+                <source>commerce.city.offer</source>
+                <target>Ofertas de Ciudad</target>
+            </trans-unit>
+            <trans-unit id="93">
+                <source>commerce.region.offer</source>
+                <target>Ofertas de Provincia</target>
+            </trans-unit>
+        <trans-unit id="94"><source>add.new.admin</source><target>Añadir nuevo administrador</target></trans-unit><trans-unit id="95"><source>list.admins</source><target>Administradores de mis puntos de venta</target></trans-unit><trans-unit id="96"><source>bm.activation.codes</source><target>Códigos de activación</target></trans-unit><trans-unit id="97"><source>title.movements</source><target>Movimientos</target></trans-unit>
+        <trans-unit id="98">
+            <source>current.month.sales</source>
+            <target>Ventas mes actual</target>
+        </trans-unit>
+        <trans-unit id="99">
+            <source>list.sales</source>
+            <target>Histórico de ventas</target>
+        </trans-unit>
+          <trans-unit id="100">
+               <source>invite.a.vip</source>
+               <target>Invitatciones VIP</target>
+          </trans-unit>
+          <trans-unit id="101">
+             <source>first.steps</source>
+             <target>Primeros pasos</target>
+        </trans-unit>
+          <trans-unit id="102">
+             <source>rm100.config</source>
+             <target>Configuración de mi RM100</target>
+        </trans-unit>
+          <trans-unit id="103">
+             <source>rm100.management</source>
+             <target>Gestión de mi RM100</target>
+        </trans-unit>
+        </body>
+
+    </file>
+</xliff>

@@ -1,0 +1,4 @@
+services:
+#    ndmb_backend.example:
+#        class: Ndmb\BackendBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

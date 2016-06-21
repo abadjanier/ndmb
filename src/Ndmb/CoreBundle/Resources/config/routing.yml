@@ -1,0 +1,3 @@
+ndmb_core_homepage:
+    path:     /
+    defaults: { _controller: NdmbCoreBundle:Default:index }
