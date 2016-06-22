@@ -11,15 +11,10 @@
                   rel='stylesheet' type='text/css'>
         {% endblock %}
     {% endblock %}
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
             {% block body %}
                 {% include 'NdmbFrontendBundle:includes:headers/header.html.twig' %}
             {% endblock %}
-        </div>
-    </div>
-</div>
+
 {% block javascript %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>

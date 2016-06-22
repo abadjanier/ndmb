@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="601b7aaf-b3d9-40a2-a802-3f94dce31c6a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css" afterPath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig" afterPath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig" afterPath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig" afterPath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig" afterPath="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig" />
     </list>
     <ignored path="ndmb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +32,21 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="posts.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-              <folding />
+              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding>
+                <element signature="e#41#69#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,28 +54,18 @@
       <file leaf-file-name="style_ndmb.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,12 +105,12 @@
         <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/base.html.twig.html" />
         <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css" />
         <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/js/js_ndmb.js" />
-        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig" />
-        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig" />
         <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css" />
+        <option value="$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig" />
       </list>
     </option>
   </component>
@@ -673,6 +670,7 @@
       <workItem from="1466563872730" duration="786000" />
       <workItem from="1466564776602" duration="359000" />
       <workItem from="1466565186564" duration="5000" />
+      <workItem from="1466565237868" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba hector">
       <created>1466557551373</created>
@@ -699,19 +697,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20346000" />
+    <option name="totallyTimeSpent" value="20628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39842632" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4041488" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29903978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29986244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1003,6 +1001,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1010,40 +1039,10 @@
     <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/responses/home/posts.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/general/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/public/css/style_ndmb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/headers/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ndmb/FrontendBundle/Resources/views/includes/main/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding>
+            <element signature="e#41#69#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
