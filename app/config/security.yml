@@ -1,11 +1,25 @@
 # To get started with security, check out the documentation:
 # http://symfony.com/doc/current/book/security.html
 security:
+    encoders:
+        Ndmb\CoreBundle\Entity\User:
+            algorithm: bcrypt
 
     # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
     providers:
+        our_db_provider:
+            entity:
+                class: NdmbCoreBundle:User
+                property: email
         in_memory:
             memory: ~
+
+    role_hierarchy:
+            ROLE_USER:                   ROLE_USER
+            ROLE_ADMIN:                  ROLE_ADMIN
+            ROLE_EDITOR:                 ROLE_EDITOR
+            ROLE_AUTOR:                  ROLE_AUTOR
+            ROLE_COLLABORATOR:           ROLE_COLLABORATOR
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -14,7 +28,17 @@ security:
             security: false
 
         main:
-            anonymous: ~
+            pattern:    ^/*
+            anonymous:      ~
+            form_login:
+                login_path: ndmb_login
+                check_path: ndmb_login_check
+            logout:
+                path:       ndmb_logout
+            remember_me:
+                secret:   '%secret%'
+                lifetime: 604800 # 1 week in seconds
+                path:     /
             # activate different ways to authenticate
 
             # http_basic: ~
@@ -22,3 +46,6 @@ security:
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+    access_control:
+        - { path: ^/admin, roles: ROLE_ADMIN }
+        - { path: ^/, roles: [ROLE_ADMIN,IS_AUTHENTICATED_ANONYMOUSLY] }
