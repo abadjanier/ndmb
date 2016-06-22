@@ -1,3 +1,18 @@
 ndmb_frontend_homepage:
     path:     /
     defaults: { _controller: NdmbFrontendBundle:Default:index }
+
+ndmb_frontend_register:
+    path:     /register
+    defaults: { _controller: NdmbFrontendBundle:Register:register }
+
+#--------LOGIN/LOGOUT--------
+ndmb_login:
+    path:     /login
+    defaults: { _controller: NdmbFrontendBundle:Security:login }
+
+ndmb_login_check:
+     path:    /login_check
+
+ndmb_logout:
+     path: /logout
