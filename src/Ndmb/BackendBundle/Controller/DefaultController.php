@@ -9,6 +9,6 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
-        return $this->render('NdmbBackendBundle:Default:index.html.twig');
+        return $this->render('NdmbBackendBundle:Administrator:base.html.twig');
     }
 }

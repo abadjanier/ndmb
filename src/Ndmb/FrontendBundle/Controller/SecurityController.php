@@ -40,6 +40,5 @@ class SecurityController extends Controller
         );
     }
     
-    /* MODIFICADO ALVARO 20-11-15 */
 
 }

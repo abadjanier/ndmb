@@ -3,7 +3,7 @@ ndmb_frontend_homepage:
     defaults: { _controller: NdmbFrontendBundle:Default:index }
 
 ndmb_frontend_register:
-    path:     /register
+    path:     /register/
     defaults: { _controller: NdmbFrontendBundle:Register:register }
 
 #--------LOGIN/LOGOUT--------
