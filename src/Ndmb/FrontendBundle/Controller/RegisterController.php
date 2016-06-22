@@ -46,6 +46,9 @@ class RegisterController extends Controller
             // ... do any other work - like sending them an email, etc
             // maybe set a "flash" success message for the user
 
+            $token = new UsernamePasswordToken($user, null, 'main', $user->getRoles());
+            $this->get('security.token_storage')->setToken($token);
+            $this->get('session')->set('_security_main', serialize($token));
            /* $token = new UsernamePasswordToken($user, $user->getPassword(), "admin", $user->getRoles());
             $this->get("security.token_storage")->setToken($token);*/
 
