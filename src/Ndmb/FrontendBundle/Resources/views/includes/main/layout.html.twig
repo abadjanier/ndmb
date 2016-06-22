@@ -1,0 +1,29 @@
+{% extends 'NdmbFrontendBundle::base.html.twig' %}
+    {% block head %}
+        {% block meta %}
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        {% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+            <link href="{{ asset('bundles/ndmbfrontend/css/style_ndmb.css') }}" type="text/css" rel="stylesheet"/>
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800'
+                  rel='stylesheet' type='text/css'>
+        {% endblock %}
+    {% endblock %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            {% block body %}
+                {% include 'NdmbFrontendBundle:includes:headers/header.html.twig' %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+{% block javascript %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <script src="{{ asset('bundles/ndmbfrontend/js/js_ndmb.js') }}"></script>
+
+{% endblock %}
+

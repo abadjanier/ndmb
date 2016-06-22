@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+        <title>{% block title %}{% endblock %} - NDMB</title>
+        <link rel="alternate" hreflang="x-default" href="http://www.nodigasmasbro.com/"/>
+        <link rel="alternate" hreflang="es-ES" href="http://www.nodigasmasbro.com/es/"/>
+        <link rel="alternate" hreflang="en-EN" href="http://www.nodigasmasbro.com/en/"/>
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}"/>
+        <meta name="description" content=""/>
+        <meta name="title" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content="ndmb"/>
+        {% block stylesheets %}{% endblock %}
+    {% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+{% block javascript %}{% endblock %}
+</body>
+</html>

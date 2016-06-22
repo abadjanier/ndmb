@@ -9,7 +9,6 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
-        echo $this->get('translator')->trans('my.bank.accounts', array(), 'titles');
-        return $this->render('NdmbFrontendBundle:Default:index.html.twig');
+        return $this->render('NdmbFrontendBundle:general:index.html.twig');
     }
 }

@@ -1,0 +1,109 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***********
+   NDMB HEADERS / MENUS
+************/
+
+header nav.top_menu {
+    height: 100px;
+}
+
+header nav.top_menu .logo {
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+}
+
+header nav .toggle {
+    float: right;
+    cursor: pointer;
+    position: relative;
+    width: 45px;
+    height: 75px;
+    display: block;
+}
+
+header nav .toggle.active {
+    z-index: 9;
+}
+
+header nav .toggle span {
+    top: 50px;
+}
+
+header nav .toggle.active span {
+    background-color: transparent;
+}
+
+header nav .toggle span:before {
+    top: 10px;
+}
+
+header nav .toggle.active span:before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    background: white;
+    top: 0;
+}
+
+header nav .toggle span:after {
+    bottom: 10px;
+}
+
+header nav .toggle.active span:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background: white;
+    bottom: 0;
+}
+
+header nav .toggle span,
+header nav .toggle span:before,
+header nav .toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 45px;
+    display: block;
+    content: '';
+    background: #505050;
+    position: absolute;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+}
+
+header #main_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.80);
+    display: none;
+}
+
+header #main_menu > ul {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+header #main_menu > ul > li {
+    font-size: 3em;
+    color: #FFF;
+    font-weight: 200;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+/***********
+   END HEADERS / MENUS
+************/

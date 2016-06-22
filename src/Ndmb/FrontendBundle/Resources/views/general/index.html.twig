@@ -1,0 +1,8 @@
+{% extends 'NdmbFrontendBundle:includes:main/layout.html.twig' %}
+{% block head %}
+    {{ parent() }}
+{% endblock %}
+{% block body %}
+    {{ parent() }}
+    {% include 'NdmbFrontendBundle:responses:home/posts.html.twig' %}
+{% endblock %}
